@@ -143,7 +143,7 @@
         <commons.lang3.version>3.9</commons.lang3.version>
         <!--Spark 2.4 version support -->
         <spark24.hadoop.version>2.6.5</spark24.hadoop.version>
-        <spark24.version>2.4.4</spark24.version>
+        <spark24.version>2.4.6</spark24.version>
         <ignite-kafka-ext.version>1.0.0</ignite-kafka-ext.version>
 
         <!-- Maven plugins versions -->
@@ -1260,7 +1260,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1273,7 +1273,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1287,7 +1287,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
