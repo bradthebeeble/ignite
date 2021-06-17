@@ -44,7 +44,7 @@
         <dependency>
             <groupId>com.google.api-client</groupId>
             <artifactId>google-api-client</artifactId>
-            <version>1.30.10</version>
+            <version>1.31.2</version>
             <exclusions>
                 <exclusion>
                     <groupId>commons-codec</groupId>
@@ -56,7 +56,7 @@
         <dependency>
             <groupId>com.google.apis</groupId>
             <artifactId>google-api-services-storage</artifactId>
-            <version>v1-rev92-1.22.0</version>
+            <version>v1beta2-rev20191127-1.30.10</version>
         </dependency>
 
         <dependency>
