@@ -76,7 +76,7 @@
         <h2.version>1.4.197</h2.version>
         <hadoop.version>2.9.1</hadoop.version>
         <hamcrest.version>1.2</hamcrest.version>
-        <httpclient.version>4.5.1</httpclient.version>
+        <httpclient.version>4.5.2</httpclient.version>
         <httpcore.version>4.4.3</httpcore.version>
         <jackson.version>2.9.10</jackson.version>
         <jackson1.version>1.9.13</jackson1.version>
@@ -1260,7 +1260,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1273,7 +1273,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1287,7 +1287,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
