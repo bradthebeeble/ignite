@@ -142,7 +142,7 @@
         <opencensus.version>0.22.0</opencensus.version>
         <commons.lang3.version>3.9</commons.lang3.version>
         <!--Spark 2.4 version support -->
-        <spark24.hadoop.version>2.6.5</spark24.hadoop.version>
+        <spark24.hadoop.version>3.0.0</spark24.hadoop.version>
         <spark24.version>2.4.4</spark24.version>
         <ignite-kafka-ext.version>1.0.0</ignite-kafka-ext.version>
 
@@ -730,7 +730,7 @@
 [INFO] ------------------------------------------------------------------------
 [ERROR] You are trying to compile Apache Ignite with inappropriate JDK version!
 [ERROR] Detected JDK Version: ${java.runtime.version}
-[ERROR] JDK version should be 1.7.0-* or >= 1.8.0-u40.
+[ERROR] JDK version should be 1.7.0-* or &gt;= 1.8.0-u40.
                             </message>
                             <version>[1.7,1.8),[1.8.0-40,)</version>
                         </requireJavaVersion>
@@ -1260,7 +1260,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1273,7 +1273,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1287,7 +1287,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
